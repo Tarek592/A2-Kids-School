@@ -368,15 +368,72 @@
     font-weight: 700;
 }
 /* stories section close */
+/* footer section start */
+.footer{
+    max-width: 1920px;
+    height: 520px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(1, 172, 253);
+    color: white;
 
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    width: 1108px;
+    margin: 0 auto;
+}
+.footer-title{
+    display: flex;
+    color: white;
+    margin-bottom: 30px;
+    
+}
+.footer-title img{
+height: 84px;
+width: 82px;
+background: white;
 
+}
+.heading-1{
+    color: rgb(255, 255, 255);
+    font-size: 2.625rem;
+    margin-left: 10px;
+    font-weight: 700;
 
-
-
-
-
-
-
+}
+.footer-column-1{
+    max-width: 398px;
+}
+.footer-details{
+    font-size: 1.25rem;
+    font-weight: 400; 
+}
+.footer-links{
+    display: flex;
+    flex-direction: column;
+}
+.footer-links a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 20px;
+ 
+}
+.school-title{
+font-size: 1.5rem;
+font-weight: 700;
+margin-bottom: 20px;
+}
+.touch-title{
+font-size: 1.625rem;
+font-weight: 700;
+margin-bottom: 32px;
+}
 
 
 
@@ -477,7 +534,7 @@
 }
 .story-card-2{
     width: auto;
-    height: 200.59px;
+    height: 190.59px;
     margin-left: 0;
     margin-right: 0;
     
