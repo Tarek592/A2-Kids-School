@@ -163,7 +163,7 @@
     .nav-container{
         padding: 12px 16px;
         justify-content: space-between;
-        border:  0.5px solid rgb(254, 163, 1);
+       border-bottom:  0.5px solid rgb(254, 163, 1);
     }
     .hero-container{
         flex-direction: column-reverse;
