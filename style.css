@@ -435,7 +435,9 @@ font-weight: 700;
 margin-bottom: 32px;
 }
 /* footer section close */
-
+.news{
+    max-width: 1440px;
+}
 /* mobile device responsive start */
 @media screen and (max-width:576px) {
     .logo-title{
