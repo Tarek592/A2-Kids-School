@@ -434,18 +434,7 @@ font-size: 1.625rem;
 font-weight: 700;
 margin-bottom: 32px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
+/* footer section close */
 
 /* mobile device responsive start */
 @media screen and (max-width:576px) {
@@ -570,4 +559,21 @@ margin-bottom: 32px;
     font-size: 1rem;
     margin-bottom: 40px;
 }
+.footer-container{
+    flex-direction: column;
+    width: 642px;
+    padding: 15px;
+    margin-top: 40px;
+}
+.heading-1 {
+   
+    font-size: 2.1875rem;}
+.footer-details {
+        font-size: 1rem;
+        margin-bottom: 20px;
+   
+    }
+    .footer{
+        height: 652px;
+    }
 }
