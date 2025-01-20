@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Quicksand ;
+    background-color: #F7F7F7;
+}
+/* navber section start */
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    max-height: 102px;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 20px 10px;
+    align-items: center;
+  
+
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-link-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.nav-link-button a{
+    text-decoration: none;
+    margin-right: 32px;
+}
+.logo-title{
+    color: rgb(17, 17, 17);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-left: 11px;
+
+}
+.home{
+    color: rgb(254, 163, 1);
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.about{
+    color: rgb(1, 172, 253);
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.facilities{
+    color: rgb(5, 212, 223);
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.admission{
+    color: rgb(93, 88, 239);
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.nav-btn{
+    width: 197px;
+    height: 50px;
+    text-align: center;
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+}
+#menu-ber{
+    font-size: 30px;
+    display: none;
+}
+/* mobile device responsive start */
+@media screen and (max-width:576px) {
+    .logo-title{
+        display: none;
+    }
+    .nav-link-button{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    #menu-ber{
+        
+        display: block;
+      
+    }
+    .nav-container{
+        padding: 12px 16px;
+        justify-content: space-between;
+    }
+}
