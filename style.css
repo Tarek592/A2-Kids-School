@@ -13,8 +13,6 @@
     margin: 0 auto;
     padding: 20px 10px;
     align-items: center;
-  
-
 }
 .nav-logo{
     display: flex;
@@ -36,7 +34,6 @@
     font-size: 2rem;
     font-weight: 700;
     margin-left: 11px;
-
 }
 .home{
     color: rgb(254, 163, 1);
@@ -140,7 +137,6 @@
     max-height: 481px;
     margin: 0 auto;
     margin-bottom: 40px;
-    
 }
 .curriculum-box-1{
     max-width: 367.8px;
@@ -159,14 +155,12 @@
     font-weight: 700;
     margin-top: 60px;
     margin-bottom: 20px;
-   
 }
 .curriculum-box-1-title{
     color: rgb(32, 32, 32);
     font-size: 1.5rem;
     font-weight: 700;
     margin:  32px 0;
-
 }
 .curriculum-box-1-sub-title{
     color: rgb(128, 128, 128);
@@ -175,16 +169,13 @@
     font-weight: 500;
     line-height: 28.3px;
     margin-bottom: 33px;
-    
 }
-
 .curriculum-box-1 a{
     text-decoration: none;
     color: rgb(100, 200, 255);
     font-size: 0.93rem;
     font-weight: 700;
 }
-
 .curriculum-box-2{
     max-width: 367.8px;
     max-height: 409.78px;
@@ -232,7 +223,6 @@
     color: rgb(255, 255, 255);
     font-size: 1.5rem;
     font-weight: 900;
-
 }
 .arrow-container{
     display: flex;
@@ -244,7 +234,6 @@
  background-color: indigo;
  transition: all 0.3s ease-in;
 }
-
 /* curriculum section close */
 /* stories section start */
 .stories{
@@ -257,7 +246,6 @@
     background: url("assets/bg.png"),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
     margin-top: 80px;
 }
-
 .stories-container{
     display: flex;
     justify-content: center;
@@ -295,8 +283,6 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 19px;
-    
-    
 }
 .story-card-2{
     width: 290.69px;
@@ -321,7 +307,6 @@
     position: relative;
     top: -24px;
     left: -21px;
-  
 }
 .story-card-2-sub-title{
     color: rgb(0, 0, 0);
@@ -346,7 +331,6 @@
     position: relative;
     top: -24px;
     left: -21px;
-  
 }
 .stories-title{
     color: rgb(0, 0, 0);
@@ -371,7 +355,6 @@
     padding-right: 46px;
     text-align: left;
     line-height: 28.76px;
-
 }
 .story-btn-last{
     margin-bottom: 60px;
@@ -383,8 +366,8 @@
     color: rgb(255, 255, 255);
     font-size: 1.15rem;
     font-weight: 700;
-
 }
+/* stories section close */
 
 
 
@@ -418,12 +401,9 @@
     .nav-btn{
         display: none;
     }
-    #menu-ber{
-        
+    #menu-ber{  
         display: block;
-      
     }
-    
     .nav-container{
         padding: 12px 16px;
         justify-content: space-between;
@@ -432,9 +412,7 @@
     .hero-container{
         flex-direction: column-reverse;
         padding: 20px;
-        text-align: center;
-
-    
+        text-align: center; 
     }
     .hero-container img{
         width: 100%;
@@ -452,13 +430,10 @@
     .curriculum-container{
         flex-direction: column;
         margin-top: 500px;
-        padding: 15px;
-        
-        
+        padding: 15px;   
     }
     .arrow-container{
-        display: none;
-        
+        display: none;    
     }
     .curriculum-box-1{
         margin-bottom: 12px;
@@ -472,17 +447,70 @@
         max-height: 467px;
         padding: 30px 10px;
     }
-    .curriculum-box-3{
-       
+    .curriculum-box-3{ 
         margin-right: 0;
         max-height: 467px;
-        padding: 30px 10px;
-        
+        padding: 30px 10px; 
     }
     .curriculum-title{
         font-size: 1.625rem;
         margin-top: 40px;
         margin-bottom: 20px;
     }
-   
+    .story-card-1{
+        display: none;
+    }
+    .stories-container{
+        flex-direction: column;
+    }
+   .stories{
+    max-height: auto;
+    margin-top: 641px;
+   }
+   .story-container{
+    max-width: 576px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 11px;
+    padding: 20px;   
+}
+.story-card-2{
+    width: auto;
+    height: 200.59px;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+.story-card-2-btn{
+    width: 103.91px;
+    height: 22.83px;
+    font-size: 0.570rem;
+    top: -17px;
+    left: -13px;
+}
+.story-card-3-btn{
+    width: 103.91px;
+    height: 22.83px;
+    font-size: 0.570rem;
+    top: -17px;
+    left: -13px;
+}
+.story-card-2-sub-title{
+    font-size: 0.570rem;
+    line-height: 17.12px;
+    margin-top: -12px;
+    padding-left: 30px;
+    margin-right: 7px;
+}
+.stories-title{
+    font-size: 1.625rem;
+    margin-bottom: 30px;
+}
+.story-btn-last{
+    width: 134px;
+    height: 30px;
+    font-size: 1rem;
+    margin-bottom: 40px;
+}
 }
